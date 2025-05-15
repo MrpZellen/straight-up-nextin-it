@@ -5,6 +5,7 @@ const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
+// API Key: AIzaSyB2M7-G3xNN7T2I4-iOYiJmEZpB9pU9iYc
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
