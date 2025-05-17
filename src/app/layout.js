@@ -6,6 +6,8 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 // API Key: AIzaSyB2M7-G3xNN7T2I4-iOYiJmEZpB9pU9iYc
+// Secret: cxFvt_a64bYFrreSb0qgrIO16hA
+//https://maps.googleapis.com/maps/api/streetview?size=400x400&location=47.5763831,-122.4211769&fov=80&heading=70&pitch=0&key=AIzaSyB2M7-G3xNN7T2I4-iOYiJmEZpB9pU9iYc
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
