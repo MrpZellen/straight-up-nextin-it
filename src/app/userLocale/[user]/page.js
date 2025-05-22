@@ -44,7 +44,7 @@ export default function UserLocale() {
                         </div>
                         About
                         </div>
-                        <div role="button" onClick={() => router.push("/userLocale/682e46f23c2b6a9eb5ba88cd")}
+                        <div role="button" onClick={() => router.push("/userLocale/0")}
                         className="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-lg focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
                         <div className="grid mr-4 place-items-center">
                         </div>
@@ -96,7 +96,7 @@ export default function UserLocale() {
                         </div>
                     </nav>
             </div>
-            <div classname="flex flex-row">
+            <div>
                 <h1 className="text-3xl text-center font-bold">HELLO THERE!! User {user}.</h1>
                 <h2 className="text-2xl text-center font-bold">Here are your beautiful new stores:</h2>
             <ul className="flex flex-row row-end-2 flex-wrap gap-4">
