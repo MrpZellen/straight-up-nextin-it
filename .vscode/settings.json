@@ -1,0 +1,6 @@
+{
+    "workbench.editor.customLabels.enabled": true,
+    "workbench.editor.customLabels.patterns": {
+        "*/public/icons/output-onlinegiftools.gif": "walLogo.gif"
+    }
+}
