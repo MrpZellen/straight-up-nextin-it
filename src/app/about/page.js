@@ -1,13 +1,14 @@
 "use client";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import Head from "next/head";
 
 export default function About() {
     const router = useRouter();
     const [loggedIn, setLoggedIn] = useState(false);
     return (
         <main className="flex min-h-screen flex-row p-10">
-        <title>About</title>
+        <Head><title>About</title></Head>
         <div className="relative flex h-[calc(100vh)] w-full max-w-[18rem] flex-col bg-transparent bg-clip-border p-4 text-blue-100 shadow-xl shadow-blue-gray-900/5">
     <div className="p-4 mb-2">
         <h5 className="block font-sans text-3xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
